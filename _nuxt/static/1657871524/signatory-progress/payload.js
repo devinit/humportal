@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/signatory-progress", {data:[{}],fetch:{},mutations:[]});
