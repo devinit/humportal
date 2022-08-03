@@ -4,18 +4,16 @@
       <b-col md="8">
         <b-jumbotron class="ml-4 mr-4 mt-1" bg-variant="light">
           <template #header>A Spotlight on International <span class="highlight">Humanitarian</span> Assistance IATI Data</template>
-          <template #lead>
-            <b-row>
-              <b-col>
-                <h3>Welcome to the IATI Humanitarian Data Portal</h3>
-              </b-col>
-            </b-row>
-            <b-row>
-              <b-col md="9">
-                Explore the humanitarian data that Grand Bargain Signatories are publishing to IATI and learn more about how the <nuxt-link :to="{name: 'about'}">Grand Bargain Transparency commitments</nuxt-link> are helping signatories to publish better data on global humanitarian action.
-              </b-col>
-            </b-row>
-          </template>
+          <b-row>
+            <b-col>
+              <h3>Welcome to the IATI Humanitarian Data Portal</h3>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col md="9" class="lead">
+              Explore the humanitarian data that Grand Bargain Signatories are publishing to IATI and learn more about how the <nuxt-link :to="{name: 'about'}">Grand Bargain Transparency commitments</nuxt-link> are helping signatories to publish better data on global humanitarian action.
+            </b-col>
+          </b-row>
           <hr />
           <b-row v-if="busy==false">
             <b-col md="4">

@@ -40,7 +40,8 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/fontawesome'
+    '@nuxtjs/fontawesome',
+    '@nuxtjs/gtm'
   ],
   fontawesome: {
     icons: {
@@ -65,6 +66,11 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
+
+  // Google Tag Manager
+  gtm: {
+    id: 'GTM-K8PB3WK',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
